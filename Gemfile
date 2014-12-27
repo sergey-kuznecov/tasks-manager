@@ -18,6 +18,8 @@ gem 'ember-rails'
 gem 'ember-source', '~> 1.8.1'
 gem 'emblem-rails'
 gem 'haml-rails'
+gem 'inherited_resources'
+gem 'ffaker'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
