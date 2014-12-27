@@ -1,5 +1,0 @@
-article#tasks
-  h1 Task
-  ul
-    each task in controller
-      li= task.title
