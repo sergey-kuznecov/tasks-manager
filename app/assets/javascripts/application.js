@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require jquery
+//= require bootstrap
+//= require bootstrap/modal
 //= require handlebars
 //= require ember
 //= require ember-data

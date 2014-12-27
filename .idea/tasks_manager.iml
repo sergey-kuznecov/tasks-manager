@@ -131,6 +131,8 @@
     <orderEntry type="library" scope="PROVIDED" name="arel (v5.0.1.20140414130214, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="barber (v0.5.0, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="barber-emblem (v0.1.1, RVM: ruby-2.1.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.1.0.2, RVM: ruby-2.1.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass-rails (v3.1.0.0, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.9, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.1, RVM: ruby-2.1.1) [gem]" level="application" />
@@ -155,7 +157,6 @@
     <orderEntry type="library" scope="PROVIDED" name="inherited_resources (v1.5.1, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.2.6, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.1.2, RVM: ruby-2.1.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.3, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v2.4.3, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.5.0, RVM: ruby-2.1.1) [gem]" level="application" />
