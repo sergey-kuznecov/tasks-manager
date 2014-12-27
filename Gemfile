@@ -15,8 +15,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'ember-rails'
-gem 'ember-source'
+gem 'ember-source', '~> 1.8.1'
 gem 'emblem-rails'
+gem 'haml-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
