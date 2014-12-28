@@ -1,0 +1,15 @@
+<p>Edit <strong>{{model.title}}</strong></p>
+
+<form class="form-horizontal">
+    <div class="form-group">
+        {{ view Ember.TextField value=model.title class="form-control"}}
+    </div>
+    <div class="form-group">
+        {{ view Ember.TextArea value=model.description class="form-control"}}
+    </div>
+
+    <fieldset class="actions">
+        <input type="submit" value='Save Changes' class="btn btn-success" {{action saveChanges}}/>
+        <button class="btn btn-danger" {{action cancel}}>Cancel</button>
+    </fieldset>
+</form>
