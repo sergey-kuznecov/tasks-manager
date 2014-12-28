@@ -21,6 +21,7 @@ gem 'emblem-rails'
 gem 'haml-rails'
 gem 'inherited_resources'
 gem 'ffaker'
+gem 'momentjs-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

@@ -15,6 +15,7 @@
 //= require jquery
 //= require bootstrap
 //= require bootstrap/modal
+//= require moment
 //= require handlebars
 //= require ember
 //= require ember-data
