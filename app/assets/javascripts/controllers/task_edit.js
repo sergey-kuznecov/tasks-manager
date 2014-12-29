@@ -10,6 +10,12 @@ App.TaskEditController = Ember.ObjectController.extend({
         cancel: function () {
             this.get('model').rollback();
             this.transitionToRoute('task');
+        },
+        delete: function() {
+            var self = this;
+            this.get('model').destroyRecord().then(function() {
+                self.transitionToRoute('tasks');
+            });
         }
     }
 })
