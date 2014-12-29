@@ -7,7 +7,7 @@ App.TaskEditController = Ember.ObjectController.extend({
                 self.transitionToRoute('task')
             })
         },
-        cancel: function() {
+        cancel: function () {
             this.get('model').rollback();
             this.transitionToRoute('task');
         }

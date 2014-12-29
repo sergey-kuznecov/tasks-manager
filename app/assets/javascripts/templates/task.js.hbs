@@ -1,21 +1,20 @@
 <div class="row">
-    <div class="col-md-5">
+    <p>{{#link-to 'tasks' }}Back to tasks{{/link-to}}</p>
+    <article id="task">
+        <h5>Created:</h5>
 
+        <p>{{model.created}}</p>
 
-<p>{{#link-to 'tasks' }}Back to tasks{{/link-to}}</p>
-<article id="task">
-    <h5>Created:</h5>
-    <p>{{model.created}}</p>
+        <h5>Title:</h5>
 
-    <h5>Title:</h5>
-    <p>{{model.title}}</p>
-    <h5>Description:</h5>
-    <p>{{model.description}}</p>
-</article>
+        <p>{{model.title}}</p>
+        <h5>Description:</h5>
 
-{{link-to 'edit' 'task.edit' model classNames='edit'}}
+        <p>{{model.description}}</p>
+    </article>
 
-{{outlet}}
+    {{link-to 'edit' 'task.edit' model class="btn btn-primary"}}
 
-</div>
+    {{outlet}}
+
 </div>
