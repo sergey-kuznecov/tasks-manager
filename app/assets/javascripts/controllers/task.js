@@ -1,5 +1,5 @@
 App.TaskController = Ember.ObjectController.extend({
-
+    needs: ['TaskCommentsNew'],
     actions: {
         delete: function() {
             var self = this;

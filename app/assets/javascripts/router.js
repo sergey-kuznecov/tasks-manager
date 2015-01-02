@@ -7,6 +7,7 @@ App.Router.map(function () {
     });
     this.resource('task', {path: '/tasks/:id'}, function () {
         this.route('edit');
+        this.route('comments.new', {path: '/tasks/:id'});
     });
     this.resource('tasks.new',  {path:'/tasks/new'});
 
