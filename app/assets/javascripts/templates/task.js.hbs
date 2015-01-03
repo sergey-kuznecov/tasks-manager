@@ -19,8 +19,8 @@
     {{outlet}}
     <h4>Comments:</h4>
     <ol>
-        {{#each comment in controller.comments}}
-            <li> <b>created:</b> {{comment.created}}<p>{{comment.text}}</p></li>
+        {{#each comment in model.comments}}
+            <li><b>created:</b> {{comment.created}}<p>{{comment.text}}</p></li>
         {{/each}}
     </ol>
 

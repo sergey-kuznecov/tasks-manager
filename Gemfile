@@ -22,6 +22,7 @@ gem 'haml-rails'
 gem 'inherited_resources'
 gem 'ffaker'
 gem 'momentjs-rails'
+gem 'ember-validations-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
