@@ -1,4 +1,9 @@
-{{errors.text.firstObject}}
+{{#if isEdit}}
+    {{errors.text.firstObject}}
+{{/if}}
+
+
+
 <form>
     {{textarea value=text class="form-control"}}
     <input type="submit" value='Create Comment' class="btn btn-success" {{ action 'createComment' }}/>

@@ -13,3 +13,6 @@ App.Comment = DS.Model.extend(Ember.Validations.Mixin, {
     }.property('created_at')
 });
 
+
+
+
